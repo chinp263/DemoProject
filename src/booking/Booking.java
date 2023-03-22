@@ -20,9 +20,9 @@ public class Booking {
         options.addArguments("--headless");
         ChromeDriver driver = new ChromeDriver(options);
         driver.navigate().to("https://www.booking.com");
-        WebElement country = driver.findElement(By.cssSelector("[name=\"sss\"]"));
+        WebElement country = driver.findElement(By.cssSelector("[name=\"ss\"]"));
         country.clear();
-        country.sendKeys("Phuket");
+        country.sendKeys("Hanoi");
 //        WebElement countrySelect = driver.findElement(By
 //        		.cssSelector("[data-testid=\"destination-container\"] li:nth-of-type(1)"));
 //        countrySelect.click();
